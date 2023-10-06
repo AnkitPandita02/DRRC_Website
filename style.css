@@ -105,9 +105,9 @@ header {
 	
 	#menu ul li  a{color: white;}
 	#menu li {display:block;float:none;width:auto;}
-	#menu input, #menu label {position:absolute;top:23px;left:62px;display:block; font-size: 1.9em; font-weight: 800;}
+	#menu input, #menu label {position:absolute;top:5px;left:30px;display:block; font-size: 1.9em; font-weight: 800;}
 	#menu input {z-index:4}
-	#menu input:checked + label {color:white}
+	#menu input:checked + label {color:#000}
 	#menu input:checked + label:before {content:"\00d7"}
 	#menu input:checked ~ ul {display:block}
 }
@@ -194,7 +194,7 @@ header {
         margin-left: 5%;
         padding-left: 9px;
         background-color: lightgray;
-        margin-top: 165px;
+        margin-top: 155px;
         opacity: 0.8;
         border-radius: 19px;
         margin-right: 90px;
@@ -210,7 +210,7 @@ header {
     #parra > p {
         font-size: 9vw;
         width: 161px;
-        margin-top: 48px;
+        margin-top: 10px;
         background-color: lightgray;
         color: black;
         width: 10em;
@@ -498,8 +498,8 @@ height: 45vh;
     animation: animated 15s linear infinite;
     animation-delay: calc(3s * var(--delay));
     height: 198px;
-    margin-top: 4em;
-    left: 100px;
+    margin-top: 250px;
+    left: 90px;
 }
 .outer22:hover .card22{
 animation-play-state: paused;
@@ -591,7 +591,7 @@ animation-play-state: paused;
 }
 .last{
 width: 100%;
-height: 100vh;
+height: 850px;
 margin-top: 6em;
 /* border: 2px solid white; */
 background-color: black;
@@ -644,6 +644,11 @@ transform: translateY(-100%) scale(0.5);
     margin-top: 20px; 
     font-size: 23px;
 }
+@media screen and (min-width: 1969px) {
+    .grey {
+        display: none;
+    }
+}
 
 @media screen and (max-width: 1968px) {
     .card22 {
@@ -665,7 +670,8 @@ transform: translateY(-100%) scale(0.5);
 }
 @media screen and (max-width: 768px) {
     .card22 {
-        width: calc(50% - 20px); 
+        width: calc(50% - 20px);
+
     }
     
 }
@@ -679,6 +685,7 @@ transform: translateY(-100%) scale(0.5);
     .text22 {
         margin-top: 225%;
         margin-left: 0%; 
+        font-size: 14px;
     }
 }
 @media screen and (max-width: 400px) {
@@ -690,7 +697,7 @@ transform: translateY(-100%) scale(0.5);
     .text22 {
          
         margin-top: 204%;
-        margin-left: -3%;
+        margin-left: -6%;
         font-size: 12px;
     }
 }
@@ -705,7 +712,7 @@ background-color: black;
 /* border: 2px solid red; */
 display: flex;
 justify-content: space-between;
-height: 92vh;
+height: 100vh;
 }
 #LOWER{
 
@@ -873,7 +880,7 @@ border-radius:25px;
 
 @media screen and (max-width: 385px){
     .form-container{
-        background-color: #111;
+        background-color: #000;
     }
 }
 
@@ -962,7 +969,7 @@ font-size: 14px;
 flex-direction: column;
 align-items: center;
 text-align: center;
-padding: 7em 0;
+padding: 5em 0;
 }
 
 #LOWER {
@@ -1028,10 +1035,10 @@ gap: 10px;
 
 
  .last #h322{
-    margin-left: 3em;
-    padding: 55px;
+    margin-left: 1em;
+    padding: 15px;
     margin-top: 0em;
-    padding-top: 20px;
+    padding-top: 5px;
     padding-left: 0px;
 }
 

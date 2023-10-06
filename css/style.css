@@ -765,12 +765,11 @@ transition: 0.7s ease-out;
     }
   }
   @media screen and (max-width: 455px){
-    .stress-the-stress7{
-      
-      top: 73px;
-  
-    font-size: 1.55em;
-    left: 21em;
+    .stress-the-stress7{  
+      top: 50px;
+      font-size: 1.55em;
+      left: 21em;
+      left: 20em;
     }
   }
 
@@ -793,9 +792,9 @@ transition: 0.7s ease-out;
   @media screen and (max-width: 450px){
     .frame7 {
       left: 16em;
-    width: 5.8em;
-    height: 34px;
-    top: 14.6em;
+      width: 5.8em;
+      height: 34px;
+      top: 310px;
     
   }
 
@@ -925,7 +924,7 @@ transition: 0.7s ease-out;
   @media screen and (max-width: 455px){
     .frame-icon7{
       width: 116px;
-      top: 5em;
+      top: 6em;
       left: 16em;
     }
   }
@@ -1331,10 +1330,10 @@ twitter width-450px */
 
 @media screen and (max-width: 850px) {
   .published-on-aug0{
-    left: -10.7em;
+    left: -145px;
     font-size: 0.8em;
     width: 14em;
-    top: 8.1em;
+    top: 125px;
 
   }
   
