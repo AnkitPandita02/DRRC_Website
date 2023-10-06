@@ -19,7 +19,7 @@ header {
 }
 .circle {
     position: absolute;
-    top: 75px;
+    top: 50px;
     border-radius: 50%;
     background-color: #FFF;
     width: 125px;
@@ -105,7 +105,7 @@ header {
 	
 	#menu ul li  a{color: white;}
 	#menu li {display:block;float:none;width:auto;}
-	#menu input, #menu label {position:absolute;top:5px;left:30px;display:block; font-size: 1.9em; font-weight: 800;}
+	#menu input, #menu label {position:absolute;top:5px;left:25px;display:block; font-size: 1.9em; font-weight: 800;}
 	#menu input {z-index:4}
 	#menu input:checked + label {color:#000}
 	#menu input:checked + label:before {content:"\00d7"}
@@ -114,7 +114,7 @@ header {
 
 .logo{
     position: absolute;
-    top: 20px;
+    top: 5px;
     left: 30px;
     color: black;
     font-size: 1.8em;
@@ -194,7 +194,7 @@ header {
         margin-left: 5%;
         padding-left: 9px;
         background-color: lightgray;
-        margin-top: 155px;
+        margin-top: 140px;
         opacity: 0.8;
         border-radius: 19px;
         margin-right: 90px;
@@ -472,17 +472,6 @@ align-items: center;
 justify-content: center;
 height: 45vh;
 }
-.grey {
-    position: absolute;
-    top: 2500px;
-    left: 900px;
-    border-radius: 100px;
-    background-color: #2a2a2a;
-    width: 400px;
-    height: 400px;
-    transform: rotate(26.83deg);
-    transform-origin: 0 0;
-  }
 .wrapper22 .card22{
     background: #fff;
     width: 316px;
@@ -644,19 +633,14 @@ transform: translateY(-100%) scale(0.5);
     margin-top: 20px; 
     font-size: 23px;
 }
-@media screen and (min-width: 1969px) {
-    .grey {
-        display: none;
-    }
-}
 
 @media screen and (max-width: 1968px) {
     .card22 {
         width: calc(50% - 20px); 
     }
-    .grey {
-        left: 900px;
-        top: 4100px;
+    .text22 {
+        background-color: #202020;
+        border-radius: 30px;
     }
 }
 
@@ -664,14 +648,16 @@ transform: translateY(-100%) scale(0.5);
     .card22 {
         width: calc(50% - 20px); 
     }
-    .grey {
-        display: none;
-    }
+    
 }
 @media screen and (max-width: 768px) {
     .card22 {
         width: calc(50% - 20px);
 
+    }
+    .text22 {
+        
+        background-color: #000;
     }
     
 }
@@ -686,6 +672,7 @@ transform: translateY(-100%) scale(0.5);
         margin-top: 225%;
         margin-left: 0%; 
         font-size: 14px;
+        background-color: #000;
     }
 }
 @media screen and (max-width: 400px) {
@@ -1016,8 +1003,9 @@ padding: 3em 0;
 }
 
 .tnd {
-flex-direction: column;
-gap: 10px;
+    flex-direction: column;
+    gap: 3px;
+    margin-top: 0px;
 }
 }
 
